@@ -1,0 +1,250 @@
+/* general stylling  */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Saira', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.preloader-wrapper {
+  background: #1d212e;
+  color: #adafb6;
+}
+
+.la-ball-scale-multiple.la-3x {
+  width: 96px;
+  height: 96px;
+}
+
+.la-ball-scale-multiple {
+  display: block;
+  margin: 0 auto;
+  font-size: 0;
+  color: #fff;
+}
+
+#main-content {
+  min-height: 100vh;
+  overflow: hidden;
+  /* position: relative; */
+  padding-bottom: 100px;
+  background-image: linear-gradient(
+    208deg,
+    #f1a04b,
+    #ca1450,
+    #c00060,
+    #bb008a,
+    #b900b4
+  );
+}
+
+/* Header stylling */
+header {
+  text-align: center;
+  padding: 5px 0;
+  z-index: 5;
+  background: #fff;
+  box-shadow: 2px 4px 20px rgb(34 90 89 / 20%);
+  position: relative;
+  width: 100%;
+}
+
+.branding-wrapper .logo-text {
+  max-width: 170px;
+  margin: 10px auto;
+}
+
+.logo-text {
+  display: table;
+  margin: 7px auto 0 auto;
+  max-width: 100px;
+}
+
+/* header wrapper  */
+.after-header-wrapper {
+  text-align: center;
+  position: relative;
+  padding: 20px 30px 0px;
+}
+
+h2 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.after-header-wrapper h4 {
+  color: #fff;
+  font-size: 1.4em;
+  margin: 0;
+  line-height: 1;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+/* content section  */
+.content-section {
+  margin-top: 70px;
+}
+
+.container {
+  max-width: 750px;
+}
+
+.main-content {
+  background: #fff;
+  /* position: relative; */
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 50%);
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.bounceIn {
+  animation-name: bounceIn;
+}
+
+.network-intro-content {
+  /* position: relative; */
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+
+.network-intro-content-ig {
+  padding: 30px 50px 40px;
+  background: #fff;
+}
+
+.branding-wrapper .logo-text {
+  max-width: 170px;
+  margin: 10px auto;
+}
+
+.logo-text {
+  display: table;
+  margin: 7px auto 0 auto;
+  max-width: 100px;
+}
+
+.intro-title-wrapper {
+  border-top: 2px solid gray;
+  padding-top: 10px;
+  text-align: center;
+  color: #4f525a;
+  font-weight: 700;
+  line-height: 1;
+  font-size: 1.9em;
+  vertical-align: top;
+  position: relative;
+}
+
+.intro-step-title-number {
+  background: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  padding: 7px 0 0 0;
+  margin-right: 15px;
+  border-radius: 50px;
+}
+
+.intro-title-wrapper {
+  text-align: center;
+  color: #4f525a;
+  font-weight: 700;
+  line-height: 1;
+  font-size: 1.9em;
+}
+
+.intro-instructions-wrapper {
+  font-weight: 300;
+  font-size: 0.4em;
+  max-width: 330px;
+  margin: 0 auto;
+  border: 1px dashed rgba(0, 0, 0, 0.3);
+  padding: 10px 5px;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.2;
+}
+
+.username-input-wrapper {
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 4px rgb(0 0 0 / 30%);
+}
+
+.username-input-wrapper {
+  background: rgba(255, 179, 179, 0.3);
+  max-width: 500px;
+  position: relative;
+  margin: 15px auto 0 auto;
+}
+
+.username-input-wrapper i {
+  position: absolute;
+  color: #000;
+  font-size: 2em;
+  left: 28px;
+  top: 27px;
+}
+
+.username-input {
+  width: 100%;
+  height: 90px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: #000;
+  font-size: 1.45em;
+  font-weight: 600;
+  padding: 0 0 0 80px;
+}
+
+input {
+  outline: none;
+}
+
+.button-wrapper {
+  position: relative;
+  margin: 40px auto 0 auto;
+}
+
+.button {
+  background: #7307af;
+  border-radius: 5px;
+  max-width: 300px;
+  padding: 10px 5px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 1.3em;
+  box-shadow: 2px 4px 20px rgb(0 0 0 / 30%);
+  transition: all 0.2s ease-in-out 0s;
+}
+
+/* footer  */
+footer {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  width: 100%;
+  font-size: 0.8em;
+  margin: 20px auto 0 auto;
+  background: #1d212e;
+}
+
+.container {
+  max-width: 750px;
+}
+
+footer p {
+  margin: 0 auto;
+  max-width: 600px;
+}
